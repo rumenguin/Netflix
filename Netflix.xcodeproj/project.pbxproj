@@ -17,6 +17,7 @@
 		35660B7129B32E67000FC36C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35660B7029B32E67000FC36C /* SearchViewController.swift */; };
 		35660B7329B32E89000FC36C /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35660B7229B32E89000FC36C /* DownloadsViewController.swift */; };
 		35660B7929B37DAD000FC36C /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35660B7829B37DAD000FC36C /* CollectionViewTableViewCell.swift */; };
+		35660B7B29B38D60000FC36C /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35660B7A29B38D60000FC36C /* HeroHeaderUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		35660B7029B32E67000FC36C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		35660B7229B32E89000FC36C /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		35660B7829B37DAD000FC36C /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		35660B7A29B38D60000FC36C /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				35660B7829B37DAD000FC36C /* CollectionViewTableViewCell.swift */,
+				35660B7A29B38D60000FC36C /* HeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				35660B7129B32E67000FC36C /* SearchViewController.swift in Sources */,
 				35660B5B29B3297C000FC36C /* MainTabBarViewController.swift in Sources */,
 				35660B7929B37DAD000FC36C /* CollectionViewTableViewCell.swift in Sources */,
+				35660B7B29B38D60000FC36C /* HeroHeaderUIView.swift in Sources */,
 				35660B7329B32E89000FC36C /* DownloadsViewController.swift in Sources */,
 				35660B5729B3297C000FC36C /* AppDelegate.swift in Sources */,
 				35660B5929B3297C000FC36C /* SceneDelegate.swift in Sources */,
@@ -348,6 +352,7 @@
 				INFOPLIST_FILE = Netflix/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -375,6 +380,7 @@
 				INFOPLIST_FILE = Netflix/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
