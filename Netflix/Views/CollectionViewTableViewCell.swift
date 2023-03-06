@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreData
 
 protocol CollectionViewTableViewCellDelegate: AnyObject {
     func collectionViewTableViewCellDidTapCell(_ cell: CollectionViewTableViewCell, viewModel: TitlePreviewViewModel)
@@ -56,7 +57,17 @@ class CollectionViewTableViewCell: UITableViewCell {
     }
     
     private func downloadTitleAt(indexPath: IndexPath) {
-        print("DEBUG: Downloading \(titles[indexPath.row].original_title)")
+        
+        DataPersistenceManager.shared.downloadTitleWith(model: titles[indexPath.row]) { result in
+            switch result {
+            case .success():
+                print("downloaded to Database")
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+        
+        //print("DEBUG: Downloading \(titles[indexPath.row].original_title)")
     }
 }
 
