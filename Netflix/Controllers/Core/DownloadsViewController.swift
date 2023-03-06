@@ -22,7 +22,7 @@ class DownloadsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
-        title = "Downloads"
+        title = "Favourites"
         view.addSubview(downloadedTable)
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationController?.navigationBar.tintColor = .systemRed

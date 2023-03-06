@@ -121,7 +121,7 @@ extension CollectionViewTableViewCell: UICollectionViewDelegate, UICollectionVie
             identifier: nil,
             previewProvider: nil) { [weak self] _ in
                 
-                let downloadAction = UIAction(title: "Download", subtitle: nil, image: nil, identifier: nil, discoverabilityTitle: nil, state: .off) { _ in
+                let downloadAction = UIAction(title: "Add to Favourites", subtitle: nil, image: nil, identifier: nil, discoverabilityTitle: nil, state: .off) { _ in
                     //print("DEBUG: Download tapped")
                     self?.downloadTitleAt(indexPath: indexPath)
                 }
