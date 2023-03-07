@@ -1,9 +1,9 @@
 # Netflix Clone
 
 - Used Swift 5 and UIKit.
-- Used tmdb API (https://api.themoviedb.org) to fetch all movie and tv shows.
-- Used YouTube API to show movie trailer. 
-- Used Core Data to save data. 
+- Used TMDB API (https://api.themoviedb.org) to fetch all movies and tv shows.
+- Used YouTube API to fetch movie trailers. 
+- Used Core Data to save movies and tv shows as favourites on device. 
 
 ## Home Tab
 
@@ -65,7 +65,7 @@
 
 ## Favourites Tab
 
-- All the movies and tv shows that we add as a favourite is shown in this tab
+- All the movies and tv shows that we add as a favourite is saved in this tab (Using Core Data)
 
 
 ![Alt text](Screenshots/fab.png)
